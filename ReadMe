@@ -1,0 +1,24 @@
+Open Terminal and type make. That would compile all the files and create the executibles, which can then be excuted by following commands.
+
+UDP Server :	Server accepts port number. Command to run server is 
+	
+	./udpserver <port_no>
+
+MultiThreaded Server: Server accepts port number. Command to run server is 
+	./multiThreaded <port_no>
+
+
+UDPClient: Client accepts IP address of the server, port number  and file name as the argument. Command to run client is 
+
+	./udpclient <IP_address> <port_no> <file_name> 
+
+Client:  Client accepts IP address of the server, port number , Connection-Type and file name as the argument. Command to run client is 
+
+./client <IP_address> <port_no> <connection-type> <file_name> 
+
+NOTE : 
+
+Connection-Type
+
+persistant = keep-alive
+non persistant= close
