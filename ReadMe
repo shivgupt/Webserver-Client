@@ -1,3 +1,6 @@
+Project: Webserver and Client in CPP
+Author: Shivani Gupta
+
 Open Terminal and type make. That would compile all the files and create the executibles, which can then be excuted by following commands.
 
 UDP Server :	Server accepts port number. Command to run server is 
